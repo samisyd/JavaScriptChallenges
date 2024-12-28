@@ -1,0 +1,29 @@
+/**
+* Front End Interview Questions: CSS Selectors
+* 
+* Q: What are some CSS selectors and how do they differ?
+*/
+
+/* the id has greator priority that class and can b used only once */
+.green {
+    color: green;
+}
+
+/* specifity of the id is higher */
+#red {
+    color: red;
+}
+
+/* this will not work */
+h1:hover {
+    color: blue;
+}
+
+/* CSS pseudo selectors . also check before and after*/
+/* this will work */
+#red:hover {
+    color: blue;
+}
+
+/
+ 
